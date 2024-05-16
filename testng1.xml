@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+		<listeners>
+		<listener class-name="com.villeos.Backlog_Test_case.Listener1"></listener>
+	</listeners>
+  <test name="Backlog_Test">
+    <classes>
+		
+          <class name="com.villeos.Backlog_Test_case.Delete_Account"></class>
+		  <class name="com.villeos.Backlog_Test_case.Registration"></class>
+		  <class name="com.villeos.Backlog_Test_case.Seed_user"></class>
+		   <class name="com.villeos.Backlog_Test_case.Forget_Password"></class>
+		   <class name="com.villeos.Backlog_Test_case.Login"></class>
+		  <class name="com.villeos.Backlog_Test_case.Profile"></class>
+		  <class name="com.villeos.Backlog_Test_case.Attach_File"></class>
+		  <class name="com.villeos.Backlog_Test_case.Task_Assign"></class>
+		  <class name="com.villeos.Backlog_Test_case.Task_complete"></class>
+		  <class name="com.villeos.Backlog_Test_case.Task_Verify"></class>
+		  <class name="com.villeos.Backlog_Test_case.Dashboard"></class>
+		  <class name="com.villeos.Backlog_Test_case.Escrow_Timeline"></class>
+		  <class name="com.villeos.Backlog_Test_case.Admin_message"></class>
+		  <class name="com.villeos.Backlog_Test_case.Buyer_Message"></class>
+		  <class name="com.villeos.Backlog_Test_case.Agent_Message"></class>
+		  <class name="com.villeos.Backlog_Test_case.Task_Message"></class>
+		  <class name="com.villeos.Backlog_Test_case.Help_feedback"></class>
+		  <class name="com.villeos.Backlog_Test_case.Note"></class>
+		  <class name="com.villeos.Backlog_Test_case.About_Us"></class>
+		  <class name="com.villeos.Backlog_Test_case.House_Url"></class>
+		   <class name="com.villeos.Backlog_Test_case.House_Prefrence"></class>  
+	
+
+    </classes>
+  </test> <!-- Backlog_Test -->
+</suite> <!-- Suite -->

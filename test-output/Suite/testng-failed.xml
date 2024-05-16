@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.villeos.config.Listener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.villeos.Test_case.Tc_20">
+        <methods>
+          <include name="Notification"/>
+          <include name="base_Class"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.villeos.Test_case.Tc_20 -->
+      <class name="com.villeos.Test_case.Tc_23">
+        <methods>
+          <include name="About"/>
+          <include name="base_Class"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.villeos.Test_case.Tc_23 -->
+      <class name="com.villeos.Test_case.Tc_10">
+        <methods>
+          <include name="base_Class"/>
+          <include name="teardown"/>
+          <include name="house_Prefrence_Save"/>
+        </methods>
+      </class> <!-- com.villeos.Test_case.Tc_10 -->
+      <class name="com.villeos.Test_case.Tc_02">
+        <methods>
+          <include name="base_Class"/>
+          <include name="teardown"/>
+          <include name="Terms_Condition"/>
+        </methods>
+      </class> <!-- com.villeos.Test_case.Tc_02 -->
+      <class name="com.villeos.Test_case.Tc_19">
+        <methods>
+          <include name="Message"/>
+          <include name="base_Class"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.villeos.Test_case.Tc_19 -->
+      <class name="com.villeos.Test_case.Tc_18">
+        <methods>
+          <include name="base_Class"/>
+          <include name="teardown"/>
+          <include name="Message_Agent_task"/>
+        </methods>
+      </class> <!-- com.villeos.Test_case.Tc_18 -->
+      <class name="com.villeos.Test_case.Tc_22">
+        <methods>
+          <include name="base_Class"/>
+          <include name="teardown"/>
+          <include name="Help_Feedback"/>
+        </methods>
+      </class> <!-- com.villeos.Test_case.Tc_22 -->
+      <class name="com.villeos.Test_case.Tc_21">
+        <methods>
+          <include name="base_Class"/>
+          <include name="teardown"/>
+          <include name="Logout"/>
+        </methods>
+      </class> <!-- com.villeos.Test_case.Tc_21 -->
+      <class name="com.villeos.Test_case.Tc_17">
+        <methods>
+          <include name="base_Class"/>
+          <include name="Verify_Task"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.villeos.Test_case.Tc_17 -->
+      <class name="com.villeos.Test_case.Tc_14">
+        <methods>
+          <include name="base_Class"/>
+          <include name="Client_list"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.villeos.Test_case.Tc_14 -->
+      <class name="com.villeos.Test_case.Tc_03">
+        <methods>
+          <include name="base_Class"/>
+          <include name="teardown"/>
+          <include name="Private_Policy"/>
+        </methods>
+      </class> <!-- com.villeos.Test_case.Tc_03 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
